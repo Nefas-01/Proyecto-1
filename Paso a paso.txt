@@ -1,0 +1,51 @@
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+(base) C:\Users\carra\OneDrive\Escritorio\IO\Curso Data Analitics II\Clase 4\Proyecto 1>git init
+Initialized empty Git repository in C:/Users/carra/OneDrive/Escritorio/IO/Curso Data Analitics II/Clase 4/Proyecto 1/.git/
+
+(base) C:\Users\carra\OneDrive\Escritorio\IO\Curso Data Analitics II\Clase 4\Proyecto 1>git branch -M master main
+
+(base) C:\Users\carra\OneDrive\Escritorio\IO\Curso Data Analitics II\Clase 4\Proyecto 1>git remote add origin https://github.com/Nefas-01/Proyecto-1.git    
+
+(base) C:\Users\carra\OneDrive\Escritorio\IO\Curso Data Analitics II\Clase 4\Proyecto 1>echo "# Este es el README de mi proyecto" >> README.md
+
+(base) C:\Users\carra\OneDrive\Escritorio\IO\Curso Data Analitics II\Clase 4\Proyecto 1>echo > .gitignore
+
+(base) C:\Users\carra\OneDrive\Escritorio\IO\Curso Data Analitics II\Clase 4\Proyecto 1>git add .              
+
+(base) C:\Users\carra\OneDrive\Escritorio\IO\Curso Data Analitics II\Clase 4\Proyecto 1>git comit
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+(base) C:\Users\carra\OneDrive\Escritorio\IO\Curso Data Analitics II\Clase 4\Proyecto 1>git comit -m "Comit inicial"  
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+(base) C:\Users\carra\OneDrive\Escritorio\IO\Curso Data Analitics II\Clase 4\Proyecto 1>git commit -m "Comit inicial"
+[main (root-commit) 2ed8429] Comit inicial
+ 2 files changed, 2 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+
+(base) C:\Users\carra\OneDrive\Escritorio\IO\Curso Data Analitics II\Clase 4\Proyecto 1>git puch -u origin main       
+git: 'puch' is not a git command. See 'git --help'.
+
+The most similar command is
+        push
+
+(base) C:\Users\carra\OneDrive\Escritorio\IO\Curso Data Analitics II\Clase 4\Proyecto 1>git push -u origin main  
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 296 bytes | 296.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Nefas-01/Proyecto-1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+(base) C:\Users\carra\OneDrive\Escritorio\IO\Curso Data Analitics II\Clase 4\Proyecto 1>
